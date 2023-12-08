@@ -180,3 +180,6 @@ app.get("/about", function(req, res){
 app.listen(3000, function() {
   console.log("Server started on port 3000");
 });
+
+//Export the Express API
+module.exports = app;
